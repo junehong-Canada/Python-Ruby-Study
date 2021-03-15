@@ -4,7 +4,7 @@ class CalMultiply():
 class CalDivide():
     def divide(self):
         return self.v1/self.v2
-class Cal(CalMultiply, CalDivide):
+class Cal(CalMultiply, CalDivide): # <===
     def __init__(self, v1, v2):
         if isinstance(v1, int):
             self.v1 = v1
